@@ -29,7 +29,9 @@ public class ServiceRequest extends BaseNet {
 		params.addBodyParameter("description", description);
 		params.addBodyParameter("expectedFixTime", expectedFixTime);
 		params.addBodyParameter("serviceFiles", serviceFiles[0]);
-//	TODO:	params.addBodyParameter("serviceFiles",serviceFiles);
+		for (int i = 0; i < serviceFiles.length; i++) {
+			params.addBodyParameter("serviceFiles",serviceFiles[i],"image/png");			
+		}
 		entity(params, NetContacts.CREATESERVICE, callback);
 	}
 	
