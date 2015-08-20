@@ -2,6 +2,7 @@ package com.gongyou.net;
 
 import java.io.File;
 
+
 import org.apache.http.Header;
 
 import android.util.Log;
@@ -14,7 +15,12 @@ import com.lidroid.xutils.http.RequestParams;
 import com.lidroid.xutils.http.ResponseInfo;
 import com.lidroid.xutils.http.callback.RequestCallBack;
 import com.lidroid.xutils.http.client.HttpRequest.HttpMethod;
-
+/**
+ * 用UserManager替代
+ * @author peng
+ *
+ */
+@Deprecated
 public class LoginNet extends BaseNet{
 
 

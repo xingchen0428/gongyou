@@ -18,6 +18,8 @@ public class NetContacts {
 	public static final String USER_LOGOUT = SERVER_URL+"/mobile/logout";
 	
 	public static final String HEARTBEAT = SERVER_URL+"/mobile/heartbeat";
+	
+	public static final String STAFFINFF = SERVER_URL+"/mobile/staffInfo";
 
 	public static final String REGISTER = SERVER_URL+"/mobile/register";
 	
@@ -93,7 +95,16 @@ public class NetContacts {
 
 	public static final String CATEGORIES = SERVER_URL+"/mobile/equipment/categories";
 
-	public static final String FINDBYCATEGORYNO = SERVER_URL+"/mobile/equipment/findByCategoryN";
+	public static final String FINDBYCATEGORYNO = SERVER_URL+"/mobile/equipment/findByCategoryNo";
+
+
+	public static final String FINDBYEQUIPMENTNO = SERVER_URL+"/mobile/equipment/findByEquipmentNo";
+
+
+	public static final String PUSH = SERVER_URL+"/mobile/push";
+
+
+	
 	
 	
 }
