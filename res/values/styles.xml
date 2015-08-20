@@ -1,0 +1,52 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- widgetMessage TextView -->
+    <style name="WidgetMessageTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <!-- widgetMessageProcess TextView -->
+    <style name="WidgetMessageProcessTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableLeft">@drawable/message_process_point</item>
+        <item name="android:drawablePadding">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <!-- widgetMessageProcess ImageView -->
+    <style name="WidgetMessageProcessImageView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">17dp</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:layout_marginLeft">12.8dp</item>
+        <item name="android:layout_marginTop">-4dp</item>
+        <item name="android:src">@drawable/message_process_tiao</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    
+</resources>

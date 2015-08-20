@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.gongyou.ui.widget.DrawingBoardWidget
+        android:id="@+id/mp_message_process"
+        android:layout_width="match_parent"
+        android:layout_height="330dp" >
+    </com.gongyou.ui.widget.DrawingBoardWidget>
+
+    
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="基本信息"
+        android:padding="4dp"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#A0A0A0" 
+        android:layout_marginBottom="5dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_message0"
+            android:visibility="visible"
+            android:text="测试测试："
+            style="@style/WidgetMessageTextView" />
+
+        <TextView
+            android:id="@+id/tv_message1"
+            style="@style/WidgetMessageTextView" />
+
+        <TextView
+            android:id="@+id/tv_message2"
+            style="@style/WidgetMessageTextView" />
+
+        <TextView
+            android:id="@+id/tv_message3"
+            style="@style/WidgetMessageTextView" />
+
+        <TextView
+            android:id="@+id/tv_message4"
+            style="@style/WidgetMessageTextView" />
+
+        <TextView
+            android:id="@+id/tv_message5"
+            style="@style/WidgetMessageTextView" />
+
+        <TextView
+            android:id="@+id/tv_message6"
+            style="@style/WidgetMessageTextView" />
+
+        <TextView
+            android:id="@+id/tv_message7"
+            style="@style/WidgetMessageTextView" />
+
+        <TextView
+            android:id="@+id/tv_message8"
+            style="@style/WidgetMessageTextView" />
+
+        <TextView
+            android:id="@+id/tv_message9"
+            style="@style/WidgetMessageTextView" />
+
+        <TextView
+            android:id="@+id/tv_message10"
+            style="@style/WidgetMessageTextView" />
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#A0A0A0" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#c9c9c9" />
+
+</LinearLayout>

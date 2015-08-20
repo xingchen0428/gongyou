@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="#FFFFFF">
+    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/ll_sliding_group"
+	    android:orientation="horizontal"
+	    android:gravity="center_vertical">
+	    
+	    <ImageView 
+	        android:id="@+id/iv_work_info"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/user_request_fix"
+	        android:layout_margin="10dp"/>
+	    
+	    <TextView 
+	        android:id="@+id/tv_work_des"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="15dp"
+	        android:text="客户报修"/>
+	    
+	</LinearLayout>
+	
+	<View 
+	    android:layout_width="match_parent"
+	    android:layout_height="0.5dp"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+	    android:background="#cecece"/>
+</LinearLayout>

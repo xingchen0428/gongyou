@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="签字栏"
+        android:textSize="20sp" />
+
+    <View
+        android:id="@+id/v_line1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/tv_title"
+        android:layout_marginBottom="5dp"
+        android:background="#A0A0A0" />
+
+    <com.gongyou.ui.widget.DrawView
+        android:id="@+id/dv_drawing_board"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/v_line1" />
+
+    <TextView
+        android:id="@+id/tv_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v_line1"
+        android:layout_marginLeft="10dp"
+        android:text="费用:"
+        android:textSize="20sp" />
+
+    <View
+        android:id="@+id/v_line2"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/dv_drawing_board"
+        android:layout_marginTop="5dp"
+        android:background="#A0A0A0" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@id/v_line2"
+        android:background="#c9c9c9" />
+
+</RelativeLayout>

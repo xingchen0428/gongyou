@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@android:color/transparent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal" >
+
+        <com.gongyou.ui.widget.RoundImageView
+            android:id="@+id/iv_user_photo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/touxiang"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="姓名：客户"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_user_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="工号：t0"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_user_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="级别：客户"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/user_into" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@android:color/transparent" />
+    
+    <com.gongyou.ui.widget.UserGroupView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ugv_user_call"/>
+        
+    
+    <com.gongyou.ui.widget.UserGroupView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ugv_user_address"/>
+        
+    <com.gongyou.ui.widget.UserGroupView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ugv_user_function"
+        android:visibility="visible">
+        
+    </com.gongyou.ui.widget.UserGroupView>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@android:color/transparent" />
+    
+    <com.gongyou.ui.widget.UserGroupView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ugv_user_logout">
+        
+    </com.gongyou.ui.widget.UserGroupView>
+</LinearLayout>
