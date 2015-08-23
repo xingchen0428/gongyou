@@ -49,17 +49,17 @@ public class BaseNet {
 		/**
 		 * 返回值的boolean 基本没用
 		 */
-		boolean error;
+		public boolean error;
 
 		/**
 		 * 这是请求返回的信息
 		 */
-		String message;
+		public String message;
 
 		/**
 		 * 枚举：空返回值的类型
 		 */
-		EntityType entityType;
+		public EntityType entityType;
 	}
 
 	/**
@@ -68,12 +68,12 @@ public class BaseNet {
 	 * @author Administrator 空的返回类型 无参回调返回
 	 */
 	public enum EntityType {
-		connectFailure, messagetrue, messagefalse
+		 connectFailure, messagetrue, messagefalse
 	}
 
 	public interface EntityCallback {
 		// 进行连接状态的回调
-		void connectCallback(EntityrResult entityrResult);
+		public void connectCallback(EntityrResult entityrResult);
 	}
 
 	/**
