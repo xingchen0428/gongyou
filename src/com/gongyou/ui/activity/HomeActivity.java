@@ -52,6 +52,7 @@ public class HomeActivity extends Activity {
 		initData();
 	}
 
+	//测试git提交
 	private void initView() {
 		this.findViewById(R.id.view_shadow).setVisibility(View.VISIBLE);
 		vp_home = (NoTouchViewPager) this.findViewById(R.id.vp_home);
