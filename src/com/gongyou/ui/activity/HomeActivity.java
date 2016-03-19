@@ -52,7 +52,7 @@ public class HomeActivity extends Activity {
 		initData();
 	}
 
-	//测试git提交  test git push net-branch too
+	//测试git提交  test git push net-branch too----MyTestBranch
 	private void initView() {
 		this.findViewById(R.id.view_shadow).setVisibility(View.VISIBLE);
 		vp_home = (NoTouchViewPager) this.findViewById(R.id.vp_home);
