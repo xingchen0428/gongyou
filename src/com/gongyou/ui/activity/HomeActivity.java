@@ -52,7 +52,7 @@ public class HomeActivity extends Activity {
 		initData();
 	}
 
-	//测试合并主干
+	//测试合并主干  haha
 	public void testMerge(){
 		android.widget.Toast.makeText(this, "test git merge", Toast.LENGTH_SHORT).show();
 	}
