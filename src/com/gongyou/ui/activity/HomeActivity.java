@@ -52,6 +52,10 @@ public class HomeActivity extends Activity {
 		initData();
 	}
 
+	public void testMerge(){
+		android.widget.Toast.makeText(this, "test git merge", Toast.LENGTH_SHORT).show();
+	}
+
 	//测试git提交  test git push master --- too xixi
 	private void initView() {
 		this.findViewById(R.id.view_shadow).setVisibility(View.VISIBLE);
